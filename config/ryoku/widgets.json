@@ -1952,6 +1952,20 @@
     "irisWorldX": 120,
     "irisWorldY": 600,
     "monitors": {
+        "HDMI-A-1": {
+            "calendarAnchor": "bottom-right",
+            "calendarEnabled": false,
+            "calendarLocked": false,
+            "calendarScale": 1,
+            "calendarX": 80,
+            "calendarY": 80,
+            "clockAnchor": "top-left",
+            "clockEnabled": false,
+            "clockLocked": false,
+            "clockScale": 1,
+            "clockX": 72,
+            "clockY": 64
+        }
     },
     "musicAnchor": "bottom-left",
     "musicApp": "",

@@ -7,7 +7,7 @@
       "y": 0.68
     }
   },
-  "barStyle": "kairos",
+  "barStyle": "iris",
   "bars": {
     "bottom_bar": {
       "center_widgets": [],
@@ -888,6 +888,14 @@
           "x": 80,
           "y": 260
         },
+        "designUndo": [
+          {
+            "key": "iris.widgets.design",
+            "output": "",
+            "value": "iris",
+            "widget": ""
+          }
+        ],
         "dynamicOpacity": 0,
         "editGrid": {
           "size": 32,
@@ -1371,8 +1379,8 @@
         "subtitleScale": 100
       },
       "appearance": {
-        "accent": "blue",
-        "adaptive": 0,
+        "accent": "wallpaper",
+        "adaptive": 80,
         "afterglow": {
           "atmosphere": 60,
           "bloom": 50,
@@ -1400,10 +1408,10 @@
           "edgeLight": 34,
           "edgeLine": 10,
           "edgeWidth": 1.5,
-          "mode": "off",
-          "tint": 58
+          "mode": "wallpaper",
+          "tint": 52
         },
-        "highlight": "orange",
+        "highlight": "wallpaper",
         "icons": {
           "plate": "black",
           "style": "iris"
@@ -1440,7 +1448,7 @@
             "gap": 0,
             "grabber": "auto",
             "header": true,
-            "joinOrigin": true,
+            "joinOrigin": false,
             "light": "inherit",
             "material": "",
             "mixer": true,
@@ -1528,7 +1536,7 @@
           "lightReach": 100,
           "lines": 100,
           "linkShapes": false,
-          "melt": 100,
+          "melt": 0,
           "moveTime": 100,
           "openTime": 100,
           "pieceShape": "circle",
@@ -1539,13 +1547,13 @@
           "rimWidth": 1,
           "shadow": 100,
           "shape": 100,
-          "surface": "black",
-          "text": 100,
+          "surface": "wallpaper",
+          "text": 85,
           "weight": "regular"
         },
         "themeColoursOnly": false,
-        "themeId": "iris",
-        "tint": 0,
+        "themeId": "adaptive",
+        "tint": 25,
         "titleFontFamily": "",
         "tune": {
           "dark": {
@@ -1576,7 +1584,7 @@
         "clockAccent": "highlight",
         "clockScale": 100,
         "clockStyle": "dateTime",
-        "composition": "cluster",
+        "composition": "unified",
         "desktopBanner": "wallpaper",
         "desktopBannerBlur": 0,
         "desktopBannerFade": 100,
@@ -1628,7 +1636,7 @@
           "controls",
           "settings"
         ],
-        "notch": true,
+        "notch": false,
         "notchCurve": 100,
         "padding": 100,
         "pageWidth": 440,
@@ -1712,9 +1720,9 @@
           },
           "network": {
             "enable": false,
-            "fx": 0.5,
-            "fy": 0.5,
-            "place": "right"
+            "fx": 0.6131,
+            "fy": 0.0231,
+            "place": "top-right"
           },
           "notifications": {
             "enable": false,
@@ -1782,8 +1790,8 @@
         "opens": "card",
         "reserve": true,
         "right": {
-          "fx": 0.5,
-          "fy": 0.5,
+          "fx": 0.4765,
+          "fy": 0.0563,
           "place": "island"
         },
         "scale": 100,
@@ -1909,7 +1917,7 @@
         "artworkBackground": true,
         "bubbleOpens": "card",
         "cardPinned": false,
-        "roundCover": true,
+        "roundCover": false,
         "visualizer": {
           "bars": 5,
           "colour": "art",
@@ -1951,7 +1959,7 @@
         }
       },
       "surround": {
-        "enable": true,
+        "enable": false,
         "musicAppearance": "etched",
         "musicColour": "pearl",
         "musicEdges": "sides",
@@ -1960,8 +1968,8 @@
         "musicSensitivity": 140,
         "musicSpeed": 100,
         "musicStrength": 160,
-        "radius": 22,
-        "thickness": 10
+        "radius": 3,
+        "thickness": 4
       },
       "tray": {
         "columns": 4,
@@ -1990,7 +1998,7 @@
         "brightWallpapers": false,
         "design": "iris",
         "legibleAlways": false,
-        "material": "glass",
+        "material": "clear",
         "opacity": 100,
         "outline": "auto",
         "radius": 22,
@@ -2580,7 +2588,6 @@
     },
     "time": {
       "dateFormat": "ddd, dd/MM",
-      "format": "hh:mm",
       "pomodoro": {
         "breakTime": 300,
         "cyclesBeforeLongBreak": 4,
@@ -2840,6 +2847,7 @@
   "python": {},
   "qsbar": {},
   "screenShader": "",
+  "showJapaneseGloss": true,
   "sounds": {
     "enabled": true,
     "events": {

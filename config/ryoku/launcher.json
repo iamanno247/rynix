@@ -21,6 +21,6 @@
     ],
     "showGreeting": true,
     "showWeather": true,
-    "variant": "hero",
+    "variant": "tansu",
     "weatherUnit": "auto"
 }

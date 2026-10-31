@@ -64,6 +64,10 @@
     script = ''
       chown -R anno:users /etc/nixos/config/nvim
       chmod -R u+rwX /etc/nixos/config/nvim
+      if [ -d /home/anno/.local/state/nvim ]; then
+        chown -R anno:users /home/anno/.local/state/nvim
+        chmod -R u+rwX /home/anno/.local/state/nvim
+      fi
     '';
   };
 

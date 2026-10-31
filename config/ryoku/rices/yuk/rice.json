@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "yuk",
   "name": "yuk",
-  "author": "feel",
+  "author": "anno",
   "createdWith": "0.50.0-beta.19",
   "color": {
     "mode": "wallpaper",
@@ -141,7 +141,7 @@
     },
     "launcher": {
       "bgBlur": 2,
-      "heroImage": "file:///home/feel/Pictures/Wallpapers/wallhaven-vpel8p.jpg",
+      "heroImage": "file:///home/anno/Pictures/Wallpapers/wallhaven-vpel8p.jpg",
       "heroPosX": 0.5,
       "heroPosY": 0.5,
       "heroStrength": 0.6,
@@ -416,7 +416,7 @@
       "markImage": "",
       "markText": "力",
       "markTint": true,
-      "name": "feel"
+      "name": "anno"
     },
     "env": [
       {

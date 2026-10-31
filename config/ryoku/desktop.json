@@ -39,7 +39,7 @@
       "hoverIconOnBorder": true,
       "inactiveBorder": "#313a4d",
       "inactiveOpacity": 0.9,
-      "layout": "scrolling",
+      "layout": "dwindle",
       "noFocusFallback": false,
       "resizeCorner": 0,
       "resizeOnBorder": true,
@@ -105,19 +105,8 @@
       "touchScrollFactor": 1,
       "workspaceSwipe": false
     },
-    "keybindDisabled": [
-      "SUPER + J"
-    ],
-    "keybindRebinds": {
-      "SUPER + ALT + E": "SUPER + SHIFT + E",
-      "SUPER + ALT + {n}": "SUPER + CTRL + {n}",
-      "SUPER + F": "SUPER + SHIFT + F",
-      "SUPER + J": "SUPER + M",
-      "SUPER + M": "SUPER + slash",
-      "SUPER + Q": "SUPER + W",
-      "SUPER + Return": "SUPER + Z",
-      "SUPER + W": "SUPER + Q"
-    },
+    "keybindDisabled": [],
+    "keybindRebinds": {},
     "keybinds": [
       {
         "action": "exec",
@@ -237,6 +226,13 @@
         "smartResizing": true
       },
       "plugins": {
+        "borders-plus-plus": {
+          "color": "#e0563b",
+          "count": 1,
+          "enabled": false,
+          "naturalRounding": true,
+          "size": 2
+        },
         "dynamicCursors": {
           "enabled": false,
           "magnify": 4,
@@ -266,6 +262,14 @@
           "theme": "dark",
           "tint": "8899aa22"
         },
+        "hyprgrass": {
+          "edgeMargin": 10,
+          "enabled": false,
+          "longPressDelay": 400,
+          "resizeOnBorderLongPress": false,
+          "sensitivity": 1,
+          "threeFingerTap": false
+        },
         "hyprscrolling": {
           "columnWidth": 0.5,
           "followFocus": true
@@ -285,6 +289,11 @@
           "release": true,
           "volume": 0.6
         }
+      },
+      "settingsWindow": {
+        "height": 0.5,
+        "mode": "full",
+        "width": 0.5
       }
     },
     "niri": {

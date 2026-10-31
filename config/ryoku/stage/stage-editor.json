@@ -1501,7 +1501,8 @@
       "labelStyle": "auto",
       "iconBackground": "none",
       "runningBadges": true,
-      "notificationBadges": true
+      "notificationBadges": true,
+      "openOn": "double"
     },
     "windowZoomOnOverview": true,
     "windowZoomLiveCapture": true,
@@ -4133,7 +4134,7 @@
     "monitors": []
   },
   "time": {
-    "format": "hh:mm",
+    "format": "h:mm AP",
     "secondsFormat": "ss",
     "shortDateFormat": "dd/MM",
     "longDateFormat": "dd/MM/yyyy",

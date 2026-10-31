@@ -3,25 +3,26 @@
 input {
     keyboard {
         xkb {
-            layout "us"
+            layout "us,br"
+            options "grp:alt_shift_toggle"
         }
-        repeat-rate 25
-        repeat-delay 600
+        repeat-rate 20
+        repeat-delay 250
     }
     touchpad {
-        tap
-        natural-scroll
-        dwt
-        drag true
-        click-method "clickfinger"
+        accel-speed 0.1
+        accel-profile "flat"
     }
     mouse {
+        accel-speed 0.1
+        accel-profile "flat"
     }
-    focus-follows-mouse max-scroll-amount="0%"
+    focus-follows-mouse
+    warp-mouse-to-focus
 }
 
 layout {
-    gaps 16
+    gaps 6
     default-column-width { proportion 0.5; }
     center-focused-column "never"
     always-center-single-column
@@ -36,21 +37,14 @@ layout {
         proportion 0.66667
     }
     border {
-        on
-        width 4
-        active-color "#c4c5dd"
-        inactive-color "#131318"
-        urgent-color "#9b0000"
-    }
-    focus-ring {
         off
     }
-    shadow {
+    focus-ring {
         on
-        softness 45
-        spread 0
-        offset x=0 y=5
-        color "#000000"
+        width 1
+        active-color "#e0563b"
+        inactive-color "#313a4d"
+        urgent-color "#9b0000"
     }
     tab-indicator {
         width 4
@@ -59,8 +53,8 @@ layout {
 }
 
 cursor {
-    xcursor-theme "Bibata-Modern-Ice"
-    xcursor-size 24
+    xcursor-theme "Bibata-Material-Ryoku"
+    xcursor-size 20
 }
 
 prefer-no-csd
@@ -79,6 +73,32 @@ gestures {
 
 overview {
     zoom 0.5
+    backdrop-color "#1E1E1E"
+}
+
+recent-windows {
+    off
+}
+
+environment {
+    BROWSER "zen-beta --name zen-beta"
+}
+
+spawn-sh-at-startup "easyeffects --hide-window --service-mode"
+spawn-sh-at-startup "gsr-ui"
+
+window-rule {
+    geometry-corner-radius 4
+    clip-to-geometry true
+}
+
+window-rule {
+    opacity 0.98
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.9
 }
 
 window-rule {
@@ -110,6 +130,56 @@ window-rule {
 window-rule {
     match app-id="(v|V)ncviewer"
     open-floating true
+}
+
+window-rule {
+    match title="Zen"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="discord-canary"
+    open-on-workspace "2"
+}
+
+window-rule {
+    match title="Ryotunes"
+    open-on-workspace "3"
+}
+
+window-rule {
+    match title="Sober"
+    open-on-workspace "1"
+}
+
+window-rule {
+    match title="Brave"
+    open-maximized true
+}
+
+window-rule {
+    match title="Steam"
+    open-on-workspace "1"
+}
+
+window-rule {
+    match title="Discord"
+    open-on-workspace "2"
+}
+
+window-rule {
+    match title="Discord"
+    open-maximized true
+}
+
+window-rule {
+    match app-id="astra"
+    open-on-workspace "3"
+}
+
+window-rule {
+    match app-id="astra"
+    open-maximized true
 }
 
 layer-rule {

@@ -9,6 +9,7 @@
     neovim
     zed-editor
     python314Packages.pip
+    vscode
 
     # CLI
     curl
@@ -37,7 +38,6 @@
     (discord.override {
        withVencord = true;
      }) # DISCORD VENCORD
-    equibop # EQUICORD
     proton-vpn
     mission-center
     nwg-look

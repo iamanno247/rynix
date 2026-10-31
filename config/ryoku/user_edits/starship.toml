@@ -28,8 +28,8 @@ style = "white bold"
 format = "[󰔚 $duration ]($style)"
 
 [character]
-success_symbol = "[感じる ↝](white)"
-error_symbol = "[感じる ↝](white)"
+success_symbol = "[感 ↝](white)"
+error_symbol = "[感 ↝](white)"
 
 [package]
 disabled = true
