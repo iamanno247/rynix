@@ -50,7 +50,7 @@
 
     nixfl = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos
       '';
     };
 
@@ -62,31 +62,31 @@
 
     config = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/configuration.nix
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/configuration.nix
       '';
     };
 
     flake = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/flake.nix
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/flake.nix
       '';
     };
 
     home = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/home.nix
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/home.nix
       '';
     };
 
     pkgs = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/modules/pkgs.nix
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/modules/pkgs.nix
       '';
     };
 
     services = {
       body = ''
-        sudo -E XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/modules/services.nix
+        sudo -E XDG_CACHE_HOME=/root/.cache XDG_STATE_HOME=/root/.local/state XDG_DATA_HOME=/root/.local/share XDG_CONFIG_HOME=/root/.config nvim /etc/nixos/modules/services.nix
       '';
     };
 

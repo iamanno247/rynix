@@ -59,8 +59,8 @@
       "wobblyWindows": false
     },
     "apps": {
-      "browser": "zen-beta --name zen-beta",
-      "editor": "zeditor",
+      "browser": "/nix/store/wwghg43wrsrvw4di2g64znjr6db33gpj-brave-origin-1.98.60/bin/brave-origin",
+      "editor": "kitty -e nvim",
       "files": "nautilus"
     },
     "autostart": [

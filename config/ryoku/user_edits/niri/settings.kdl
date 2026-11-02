@@ -81,7 +81,7 @@ recent-windows {
 }
 
 environment {
-    BROWSER "zen-beta --name zen-beta"
+    BROWSER "/nix/store/wwghg43wrsrvw4di2g64znjr6db33gpj-brave-origin-1.98.60/bin/brave-origin"
 }
 
 spawn-sh-at-startup "easyeffects --hide-window --service-mode"

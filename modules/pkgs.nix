@@ -41,8 +41,6 @@
     proton-vpn
     mission-center
     nwg-look
-    anydesk
-    telegram-desktop
 
     # PACKAGES
     nil
