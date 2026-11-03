@@ -191,13 +191,30 @@
         "url": "https://codeberg.org/zacoons/imgborders.git"
       }
     },
+    "inirSrc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791487322,
+        "narHash": "sha256-+0rQz1y6wAIv1T4xAG3udY6bZSpTZ2nhdS9nzTCijkw=",
+        "owner": "snowarch",
+        "repo": "iNiR",
+        "rev": "48cdcecb0f6089cfbb7019054602eab28e154b3b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "snowarch",
+        "repo": "iNiR",
+        "rev": "48cdcecb0f6089cfbb7019054602eab28e154b3b",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1793341285,
-        "narHash": "sha256-Y1CiZ4SoBUjLQyQM/pY+rS2dXD3CHLPstF0lmOc73D4=",
+        "lastModified": 1793540411,
+        "narHash": "sha256-fiPJ88izTVucjeo2EQ3jk4aWmLg03I1D4vxnX2QjEgE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "1c89083e451e891152365b799595cf7790a43325",
+        "rev": "0bb2eedc20e4739f29e8045034f2828ad7054f8f",
         "type": "github"
       },
       "original": {
@@ -334,6 +351,7 @@
         "bibataMaterialSrc": "bibataMaterialSrc",
         "hyprglassSrc": "hyprglassSrc",
         "imgbordersSrc": "imgbordersSrc",
+        "inirSrc": "inirSrc",
         "nixpkgs": "nixpkgs_2",
         "ryokuPackagesNixpkgs": "ryokuPackagesNixpkgs",
         "ryokuUpstream": "ryokuUpstream",
@@ -341,11 +359,11 @@
         "skwdWall": "skwdWall_3"
       },
       "locked": {
-        "lastModified": 1793518073,
-        "narHash": "sha256-QV3F0wuPQKSdDntYg9antjBg3PvkUZWxUav9+DVCE5Y=",
+        "lastModified": 1793671923,
+        "narHash": "sha256-r4G/UuXp+3W6BViKcL+w3CbLDXYEnUa3QA6lUEJ3dRU=",
         "owner": "ryoku-dev",
         "repo": "Ryoku-on-NixOS",
-        "rev": "2af1dd7d82c4a6e6db724865c9f446ec01ab264d",
+        "rev": "67aacf230e7e6c3aa8e248985f61c3a7772b3407",
         "type": "github"
       },
       "original": {
@@ -662,11 +680,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1793498088,
-        "narHash": "sha256-1MkvkLk4WEJkPrKvCZa3wapvXmdmNAgjh7Ap97GUqVQ=",
+        "lastModified": 1793642042,
+        "narHash": "sha256-0z7OZFzumJlefJ+8zycS9G+8oB/ImtIP0yYzhjmhVjM=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "536b03dea1ab7460afd44565e81f0a72c371c70f",
+        "rev": "81a04071a4bac9e7391fbaa0d7d6572e8a1ba481",
         "type": "github"
       },
       "original": {

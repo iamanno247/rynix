@@ -308,25 +308,25 @@
     }
   },
   "github-heatmap": {
-    "enabled": false,
+    "enabled": true,
     "host": "desktopWidget",
     "settings": {
-      "username": "feelyourwarmth",
+      "username": "iamanno247",
       "design": "minimal",
       "background": "none",
-      "palette": "accent",
+      "palette": "blue",
       "colorScale": "github",
       "monthGap": 4,
       "cellSize": 10,
       "cellGap": 2,
-      "cellShape": "circle",
+      "cellShape": "rounded",
       "showMonths": false,
       "showWeekdays": false,
       "showStats": false,
       "showLegend": false,
       "showToolbar": false,
-      "showEmpty": false,
-      "monthFormat": "cap",
+      "showEmpty": true,
+      "monthFormat": "short",
       "weekdayStyle": "alt",
       "highlightToday": true,
       "range": "year",
@@ -335,8 +335,8 @@
       "hoverStyle": "tooltip"
     },
     "desktopWidget": {
-      "x": 0,
-      "y": 960,
+      "x": 539,
+      "y": 928,
       "scale": 1,
       "locked": true
     }

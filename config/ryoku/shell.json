@@ -2845,7 +2845,36 @@
     }
   },
   "python": {},
-  "qsbar": {},
+  "qsbar": {
+    "layout": {
+      "center": [
+        "clock"
+      ],
+      "left": [
+        "launcher",
+        "workspaces",
+        "status",
+        "cpu",
+        "volume",
+        "memory",
+        "ai"
+      ],
+      "right": [
+        "media",
+        "quick",
+        "network",
+        "power",
+        "battery",
+        "brightness",
+        "cputemp",
+        "storage",
+        "gpu",
+        "bluetooth",
+        "layout"
+      ],
+      "version": 1
+    }
+  },
   "screenShader": "",
   "showJapaneseGloss": true,
   "sounds": {
