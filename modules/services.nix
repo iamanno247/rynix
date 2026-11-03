@@ -1,9 +1,19 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   services.flatpak.enable = true;
   services.lact.enable = true;
   services.gvfs.enable = true;
+
+
+  systemd.user.services.voxtype = {
+    description = "Voxtype push-to-talk voice-to-text daemon";
+    wantedBy = [ "graphical-session.target" ];
+    serviceConfig = {
+      ExecStart = "${inputs.voxtype.packages.${pkgs.system}.vulkan}/bin/voxtype daemon";
+      Restart = "no";
+    };
+  };
 
   systemd.services.fix-ryoku-permissions = {
     description = "Ensure Ryoku config directory has correct permissions";

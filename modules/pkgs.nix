@@ -4,6 +4,7 @@
   environment.systemPackages = with pkgs; [
     # VOXTYPE
     inputs.voxtype.packages.${pkgs.system}.vulkan
+    wtype
 
     # DEV
     neovim
