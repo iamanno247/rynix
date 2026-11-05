@@ -7,10 +7,21 @@
 
   programs.zen-browser = {
     enable = true;
-    setAsDefaultBrowser = true;
+    setAsDefaultBrowser = false;
 
     profiles.default = {
       sine.enable = true;
+    };
+  };
+
+  # Default browser: Brave Origin
+  xdg.mimeApps = {
+    enable = true;
+    defaultApplications = {
+      "x-scheme-handler/http"  = [ "brave-origin.desktop" ];
+      "x-scheme-handler/https" = [ "brave-origin.desktop" ];
+      "text/html"              = [ "brave-origin.desktop" ];
+      "application/xhtml+xml"  = [ "brave-origin.desktop" ];
     };
   };
 

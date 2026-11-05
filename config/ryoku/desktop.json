@@ -59,7 +59,7 @@
       "wobblyWindows": false
     },
     "apps": {
-      "browser": "/nix/store/wwghg43wrsrvw4di2g64znjr6db33gpj-brave-origin-1.98.60/bin/brave-origin",
+      "browser": "/nix/store/2ryhpsn00a2fw2i4blz3md6qkw9ai2y8-brave-origin-1.98.63/bin/brave-origin",
       "editor": "kitty -e nvim",
       "files": "nautilus"
     },
@@ -289,6 +289,9 @@
           "release": true,
           "volume": 0.6
         }
+      },
+      "render": {
+        "autoHdr": false
       },
       "settingsWindow": {
         "height": 0.5,

@@ -1611,12 +1611,12 @@
           "workspaces",
           "window"
         ],
-        "height": 42,
+        "height": 39,
         "hoverDelay": 300,
         "hoverExpand": true,
         "layout": "island",
         "leftModules": [],
-        "margin": 8,
+        "margin": 2,
         "mediaBlocks": [
           "player",
           "timeline",
@@ -1636,7 +1636,7 @@
           "controls",
           "settings"
         ],
-        "notch": false,
+        "notch": true,
         "notchCurve": 100,
         "padding": 100,
         "pageWidth": 440,

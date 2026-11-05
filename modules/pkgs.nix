@@ -42,6 +42,7 @@
     proton-vpn
     mission-center
     nwg-look
+    hydralauncher
 
     # PACKAGES
     nil

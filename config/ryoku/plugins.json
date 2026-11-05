@@ -336,9 +336,10 @@
     },
     "desktopWidget": {
       "x": 539,
-      "y": 928,
+      "y": 896,
       "scale": 1,
-      "locked": true
+      "locked": true,
+      "opacity": 1
     }
   },
   "power-menu-v2": {
