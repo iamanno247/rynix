@@ -43,6 +43,7 @@
     mission-center
     nwg-look
     hydralauncher
+    obs-studio
 
     # PACKAGES
     nil
